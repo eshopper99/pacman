@@ -1,0 +1,5 @@
+Two pinout and and (optional) embracing IPI Design (use TCL to recreate) are provided
+The IP integrator block design has just been used to easily debug the design by means of adding heartbeat LEDs to monitor Pixel clock, HSync and Vsync
+this is completely optional and can be omitted
+The XDC for ARTY35 expects the VGA Adapter in the middle two PMods and Audio coming out on JA (leftmost PMOD).
+The XDC for the ZEDboard does not require and external VGA - of cource ony one XDC file should be added to the source collection
